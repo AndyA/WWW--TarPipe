@@ -13,7 +13,8 @@ WriteMakefile(
     ABSTRACT_FROM => 'lib/WWW/TarPipe.pm',
     PL_FILES      => {},
     PREREQ_PM     => {
-        'Test::More' => 0,
+        'Test::More'     => 0,
+        'LWP::UserAgent' => 0,
     },
     dist  => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean => { FILES    => 'WWW-TarPipe-*' },
