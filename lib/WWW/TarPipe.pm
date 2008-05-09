@@ -192,7 +192,7 @@ have a corresponding read only accessor.
 
 =head3 C<< base_uri >>
 
-The base URI for the tarput service.
+The base URI for the tarpit service.
 
 =head3 C<< title >>
 
