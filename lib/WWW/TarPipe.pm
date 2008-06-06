@@ -230,7 +230,7 @@ WWW::TarPipe requires no configuration files or environment variables.
 
 =head1 DEPENDENCIES
 
-None.
+L<LWP::UserAgent>
 
 =head1 INCOMPATIBILITIES
 

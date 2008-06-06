@@ -28,9 +28,8 @@ use constant BAD_KEY => '99999999999999999999999999999999';
 {
     ok my $tp = WWW::TarPipe->new( key => KEY );
     my $got = $tp->upload(
-        title => 'A test',
-        body  => 'Just testing',
-        image => 'XXXX'
+        title => 'andy@hexten.net',
+        body  => 'WWW::TarPipe',
     );
     is $got, 'ok!';    # Not formally part of the spec.
 }
